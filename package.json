@@ -1,0 +1,32 @@
+{
+  "name": "loc-api-library",
+  "version": "0.5.0",
+  "description": "This is the official API wrapper for interacting with the Library of Code API, written by the developers of the API itself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LOCCouncil/LOC-API-Library.git"
+  },
+  "keywords": [
+    "api",
+    "loc",
+    "library",
+    "of",
+    "code"
+  ],
+  "author": "Dutch van der Linde#0001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LOCCouncil/LOC-API-Library/issues"
+  },
+  "homepage": "https://github.com/LOCCouncil/LOC-API-Library#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^5.9.0",
+    "typescript": "^3.2.1",
+    "typings": "^2.1.1"
+  }
+}
