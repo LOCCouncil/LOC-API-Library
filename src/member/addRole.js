@@ -1,7 +1,7 @@
 'use strict';
 exports.__esModule = true;
 var axios_1 = require('axios');
-var putMemberSelfRole = /** @class */ (function() {
+var addRole = /** @class */ (function() {
 
   /**
      * 
@@ -11,15 +11,15 @@ var putMemberSelfRole = /** @class */ (function() {
      * @param {string} authorization Your authorization token.
      * @returns {Promise}
      */
-  function putMemberSelfRole(userID, roleID, authorization) {
+  function add(userID, roleID, authorization) {
     axios_1['default']({
       method: 'put',
-      url: 'https://libraryofcode.ml/member/' + userID + '/roles/' + roleID,
+      url: 'https://libraryofcode.ml/api/member/' + userID + '/roles/' + roleID,
       headers: {
         authorization: authorization
       }
     });
   }
-  return putMemberSelfRole;
+  return add;
 }());
-exports.putMemberSelfRole = putMemberSelfRole;
+exports.addRole = addRole;

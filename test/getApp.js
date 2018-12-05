@@ -1,6 +1,3 @@
-const GetApplicationData = require('../ts/getApplicationData.js')
-const GetApplicationData1 = require('../src/client/getApplicationData.js');
+const local = require('../index');
 
-//new GetApplicationData('507353658661535754', '446067825673633794');
-
-GetApplicationData1.GetApplicationData('507353658661535754', '446067825673633794').request()
+local.putMemberSelfRole.addRole('278620217221971968', '513359640923340801', 'Mjc4NjIwMjE3MjIxOTcxOTY4.Njg5.1xsh84W1A1ZcCabM7gMY_QWwUTX3GAC_rv-eJ_OsrJ0zudD7kDqZXEdl4E2oma96');
