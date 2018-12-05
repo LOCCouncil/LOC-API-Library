@@ -1,14 +1,25 @@
-class putMemberSelfRole {
-  constructor(userID, roleID, authorization) {
-    const axios = require('axios');
-    axios({
+'use strict';
+exports.__esModule = true;
+var axios_1 = require('axios');
+var putMemberSelfRole = /** @class */ (function() {
+
+  /**
+     * 
+     * @async
+     * @param {string} userID Your user ID.
+     * @param {string} roleID The role ID of the role you're requesting.
+     * @param {string} authorization Your authorization token.
+     * @returns {Promise}
+     */
+  function putMemberSelfRole(userID, roleID, authorization) {
+    axios_1['default']({
       method: 'put',
-      url: `https://sas.libraryofcode.ml/member/${userID}/roles/${roleID}`,
+      url: 'https://libraryofcode.ml/member/' + userID + '/roles/' + roleID,
       headers: {
         authorization: authorization
       }
     });
   }
-}
-
-module.exports = putMemberSelfRole;
+  return putMemberSelfRole;
+}());
+exports.putMemberSelfRole = putMemberSelfRole;

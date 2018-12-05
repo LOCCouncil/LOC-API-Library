@@ -1,4 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var apiURL = 'https://sas.libraryofcode.ml/api/';
-exports.default = { apiURL: apiURL };
+exports["default"] = { apiURL: apiURL };
