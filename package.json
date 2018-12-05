@@ -1,6 +1,6 @@
 {
   "name": "loc-api-library",
-  "version": "0.8.5",
+  "version": "0.8.7",
   "description": "This is the official API wrapper for interacting with the Library of Code API, written by the developers of the API itself.",
   "main": "index.js",
   "scripts": {
