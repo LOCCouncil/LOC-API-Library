@@ -15,4 +15,7 @@ declare module 'loc-api-library' {
             }
         }
     }
+    export class putMemberSelfRole {
+        constructor(userID: string, roleID: string, authorization: string)
+    }
 }
